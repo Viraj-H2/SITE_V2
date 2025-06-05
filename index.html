@@ -49,46 +49,68 @@
                 </div>
             </div>
         </header>
-        <!-- About-->
-        <section class="about-section bg-light text-center" id="about">
+       <section class="about-section bg-light py-5" id="about">
             <div class="container px-4 px-lg-5">
-                <div class="row mb-3">
-                    <div class="col text-start">
-                        <h3 style="color:black; font-weight: bold;">OUR TECHNOLOGY</h3>
-                        <h2 style="color:#010088; font-size:1.5rem;">The first efficient and clean engine before 2030.</h2>
+                <!-- Titre -->
+                <div class="row mb-4">
+                <div class="col text-start">
+                    <h3 style="color:black; font-weight: bold;">OUR TECHNOLOGY</h3>
+                    <h2 style="color:#010088; font-size:2.5rem;">The first efficient and clean propulsion system before 2030.</h2>
+                </div>
+                </div>
 
-                    </div>
-                </div>
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <img style="max-width:45%;" src="assets/img/KIT DRAW.png" alt="..."/>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Performance after steam injection -->
-        <section class="performance-section bg-light py-5">
-            <div class="container px-4 px-lg-5 text-center">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <!-- Economic Performance -->
-                    <div class="col-md-5 mb-4">
-                        <div class="performance-box">
-                            <h2 class="text-uppercase">COST-EFFECTIVE</h2>
-                            <p>(Up to)</p>
-                            <h3 class="performance-value">-34%</h3>
-                            <p style="font-weight:bold; font-size:1.1rem; color:black">Fuel consumption</p>
+                <!-- Conteneur principal avec image à gauche et performances à droite -->
+                <div class="row gx-5 align-items-center" style="height: auto;">
+                <!-- Image moteur à gauche, plus grande -->
+                <div class="col-md-6 text-center">
+                    <img src="assets/img/VAR_TP.png" alt="Engine VAR_TP" 
+                        style="width:220%; max-width:2000px; height:auto; margin-left:-430px;">
+                </div> <!-- Fin colonne image -->
+
+                <!-- Performances à droite avec hauteur minimum pour être plus haute que l'image -->
+                <div class="col-md-6 text-start text-dark ps-4" style="min-height: 500px;">
+                    <!-- Ajout de la phrase avant les performances -->
+                    <h4 class="font-size:1.3rem mb-4" style="font-weight: bold;">Compared to a conventional engine:</h4>
+
+                    <div class="row g-4">
+                        <!-- Fuel -->
+                        <div class="col-12">
+                            <div class="card shadow-sm border-0 rounded-4 p-4 bg-white">
+                            <div class="d-flex align-items-center">
+                                <div class="me-4 text-center">
+                                <p class="mb-1 small text-muted">Up to</p>
+                                <div class="display-3 fw-bold" style="color:#010088">-34%</div>
+                                </div>
+                                <div class="text-start">
+                                <h5 class="mb-1 text-uppercase" style="color:black">Fuel Consumption</h5>
+                                <p class="mb-0 small text-muted">Cost-effective performance with steam injection</p>
+                                </div>
+                            </div>
+                            </div>
                         </div>
-                    </div>
-                    <!-- Sustainable Performance -->
-                    <div class="col-md-5 mb-4">
-                        <div class="performance-box">
-                            <h2 class="text-uppercase">SUSTAINABLE</h2>
-                            <p>(Up to)</p>
-                            <h3 class="performance-value">-75%</h3>
-                            <p style="font-weight:bold; font-size:1.1rem; color:black">Emissions</p>
+
+                        <!-- Emissions -->
+                        <div class="col-12">
+                            <div class="card shadow-sm border-0 rounded-4 p-4 bg-white">
+                                <div class="d-flex align-items-center">
+                                    <div class="me-4 text-center">
+                                        <p class="mb-1 small text-muted">Up to</p>
+                                        <div class="display-3 fw-bold" style="color:#010088">-75%</div>
+                                    </div>
+                                        <div class="text-start">
+                                            <h5 class="mb-1 text-uppercase" style="color:black">Emissions</h5>
+                                            <p class="mb-0 small text-muted">Significantly lower non-CO₂ and CO₂ impact</p>
+                                        </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
+                    </div> <!-- Fin des performances -->
+
+                    <div class="mt-5"> <!-- Marge plus grande pour un espace plus visible -->
+                        <h4 class="mb-4" style="font-size: 1.2rem; color: #010088; font-weight: bold;">More to come...</h4>
+                     </div>
+                </div> <!-- Fin colonne performances -->
+                </div> <!-- Fin ligne -->
             </div>
         </section>
         <!-- Projects-->
@@ -156,7 +178,7 @@
         <!-- Team Image -->
         <section class="team-image-section bg-light text-center py-5">
             <div class="container px-4 px-lg-5">
-                <h2 class="text-black mb-5">Meet the team</h2>
+                <h2 class="text-black mb-5">Meet our Team</h2>
                 <img src="assets/img/DSC_4673-HD.jpg" alt="Our Team" class="img-fluid" style="max-width: 100%; height: auto;">
             </div>
         </section>
