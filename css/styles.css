@@ -11271,8 +11271,8 @@ body {
 }
 
 .partner-logo.large-logo {
-  max-width: 120%;
-  max-height: 120%;
+  max-width: 150%;
+  max-height: 150%;
 }
 
 .ecosystem-bubble {
@@ -11308,6 +11308,7 @@ body {
 .icon-image {
   border-radius: 50%; /* Bords complètement arrondis pour les icônes */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère pour effet de relief */
+  filter: grayscale(100%) contrast(120%);
 }
 
 /* Espacer le lien Careers des autres éléments dans la nav */
