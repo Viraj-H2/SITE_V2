@@ -11393,3 +11393,9 @@ body {
   background-size: cover;
   position: relative;
 }
+
+.var-tp-img {
+    width: 220%;
+    max-width: 2000px;
+    margin-left: -430px;
+}
